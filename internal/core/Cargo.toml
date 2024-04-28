@@ -46,6 +46,8 @@ shared-fontdb = ["i-slint-common/shared-fontdb"]
 
 raw-window-handle-06 = ["dep:raw-window-handle-06"]
 
+default = ["unicode"]
+
 [dependencies]
 i-slint-common = { workspace = true, features = ["default"] }
 i-slint-core-macros = { workspace = true, features = ["default"] }
